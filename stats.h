@@ -23,6 +23,15 @@
 
 /* Add Your Declarations and Function Comments here */ 
 
+/*
+ * Functia print arrays
+ *
+ * */
+
+void print_array(unsigned char array[], unsigned int size);
+
+
+
 /**
  * @brief <Add Brief Description of Function Here>
  *

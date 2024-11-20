@@ -37,7 +37,23 @@ void main() {
 
   /* Other Variable Declarations Go Here */
   /* Statistics and Printing Functions Go Here */
-
+	print_array(test, SIZE);	
 }
 
 /* Add other Implementation File Code Here */
+void print_array(unsigned char array[], unsigned int size){
+	
+	for(unsigned int i = 0; i <= size; i++){
+		printf("Index %u : %u\n", i, array[i]);
+
+	}
+
+
+}
+
+
+
+
+
+
+
